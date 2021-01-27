@@ -1,0 +1,46 @@
+{
+	"name": "marbles",
+	"version": "4.0.0",
+	"description": "A demonstration Node.js web application on Hyperledger Fabric.",
+	"main": "app.js",
+	"scripts": {
+		"start": "node app.js"
+	},
+	"dependencies": {
+		"async": "2.5.*",
+		"compression": "1.7.*",
+		"cookie-parser": "1.4.*",
+		"cors": "2.8.*",
+		"express": "4.14.*",
+		"express-session": "1.14.*",
+		"fabric-ca-client": "1.0.5",
+		"fabric-client": "1.0.5",
+		"firebase": "^4.2.0",
+		"grpc": "1.10.1",
+		"pkcs11js": "^1.0.21",
+		"protobufjs": "^5.0.1",
+		"pug": "2.0.3",
+		"react-native": "^0.63.2",
+		"serve-static": "1.13.*",
+		"winston": "2.4.*",
+		"ws": "1.1.5"
+	},
+	"engines": {
+		"node": "^6.2.0"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/IBM-Blockchain/marbles.git"
+	},
+	"devDependencies": {
+		"gulp": "github:gulpjs/gulp#v4.0.0",
+		"gulp-clean-css": "*",
+		"gulp-concat": "*",
+		"gulp-rename": "*",
+		"gulp-sass": "*"
+	},
+	"author": {
+		"name": "David Huffman"
+	},
+	"license": "Apache-2.0"
+}
